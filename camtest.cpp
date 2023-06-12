@@ -24,7 +24,7 @@ int main()
 
     capCaptureGetSetup(hWndC, &parms, sizeof(CAPTUREPARMS));
     parms.fLimitEnabled = TRUE;
-    parms.wTimeLimit = 9; // capture for 9 secs, change it to a argument for easier config I guess
+    parms.wTimeLimit = 9; // capture for 9 secs, change it to an argument for easier config I guess
     capCaptureSetSetup(hWndC, &parms, sizeof(CAPTUREPARMS));
 
 
